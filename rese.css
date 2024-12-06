@@ -1,0 +1,150 @@
+body{
+    background: url(Rectangle\ 18.png) no-repeat center/cover;
+    backdrop-filter:blur(50px);
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.regestrition{
+    display: flex;
+justify-content: center;
+align-items: center;
+width: 1180.27px;
+height: 392.18px;
+border-radius: 15px;
+
+box-shadow: 0px 0px 35px 0px #D4145A40;
+margin-top: 130px;
+}
+.regestrition h1{
+    position: relative;
+    top: -150px;
+    left: 450px;
+    font-family: "Roboto";
+font-size: 24px;
+font-weight: 500;
+line-height: 28.13px;
+text-align: center;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+width: 100%;
+font-weight: 900;
+}
+.name{
+    width: 962.49px;
+height: 50.72px;
+border-radius: 9px;
+border: 1px solid black;
+position: relative;
+left: -0px;
+top: -40px;
+color: #989898;
+}
+.email{
+    width: 962.49px;
+    height: 50.72px;
+    border-radius: 9px;
+    border: 1px solid black;
+    position: relative;
+    left: 180px;
+    top: -40px;
+    color: #989898;
+}
+.avto{
+    width: 1449.73px;
+height: 71.65px;
+border-radius: 9px;
+border: 1px solid black;
+position: relative;
+top: 60px;
+left: -290px;
+color: #989898;
+}
+button{
+    width: 569.49px;
+height: 42.06px;
+border-radius: 9px;
+position: relative;
+left: -500px;
+top: 140px;
+background: linear-gradient(96.12deg, #D4145A -21.03%, #3D5BF5 103.56%);
+color: white;
+}
+button a{
+    color: white;
+}
+@media (max-width: 1024px) {
+    .regestrition {
+        width: 90%;
+        height: auto;
+        margin-top: 100px;
+        flex-direction: column;
+        align-items: stretch;
+    }
+
+    .name,
+    .email,
+    .avto {
+        width: 80%;
+        left: 0;
+        top: 0;
+        margin: 10px auto;
+    }
+
+    button {
+        width: 80%;
+        left: 0;
+        top: 20px;
+        margin: 0 auto;
+    }
+}
+
+@media (max-width: 768px) {
+    .regestrition {
+        margin-top: 80px;
+    }
+
+    .name,
+    .email,
+    .avto,
+    button {
+        width: 100%;
+    }
+
+    .regestrition h1 {
+        font-size: 20px;
+        left: 0;
+        top: 0;
+    }
+}
+
+@media (max-width: 480px) {
+    body {
+        padding: 10px;
+    }
+
+    .regestrition {
+        margin-top: 50px;
+        box-shadow: none;
+    }
+
+    .name,
+    .email,
+    .avto,
+    button {
+        font-size: 14px;
+    }
+
+    .regestrition h1 {
+        font-size: 16px;
+    }
+}
